@@ -1,0 +1,164 @@
+/* h1, h2, h3, h4, h5, dst */
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+  color: rgb(20, 120, 72);
+  font-family: "Poppins", sans-serif;
+  margin-top: 70px;
+}
+
+h3 {
+  color: rgb(151, 247, 201);
+  margin-top: 15px;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+}
+/* tutup h1, h2, h3, h4, h5, dst */
+
+/* Style Navbar */
+.navbar {
+  font-size: 18px;
+}
+
+.nav-item {
+  margin: 10px;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.nav-link.active {
+  font-weight: 600;
+}
+/* Tutup Navbar */
+
+/* Style target.html */
+#note {
+  height: 100vh;
+  width: 100%;
+  padding-top: 10px;
+}
+
+/* Tutup Style target.html */
+
+/* Style tipsntrick.html */
+#judul {
+  background-color: rgb(108, 117, 125);
+  height: 30vh;
+  width: 100%;
+  padding-top: 20vh;
+}
+/* Tutup style tipsntrick.html */
+
+/* Style Section */
+#section1 {
+  background: linear-gradient(160deg, rgb(65, 161, 115), rgb(33, 100, 70));
+  height: 100vh;
+  width: 100%;
+  padding-top: 200px;
+}
+#Referensi {
+  background-color: rgb(108, 117, 125);
+  height: 30vh;
+  width: 100%;
+  padding-top: 20vh;
+}
+
+#judulTarget {
+  background-color: rgb(108, 117, 125);
+  height: 30vh;
+  width: 100%;
+  padding-top: 20vh;
+}
+
+#judulRiwayat {
+  background-color: rgb(108, 117, 125);
+  height: 30vh;
+  width: 100%;
+  padding-top: 20vh;
+}
+
+#soal {
+  background-color: rgb(108, 117, 125);
+  height: 10vh;
+  width: 100%;
+}
+
+.card-services {
+  background-color: rgb(65, 161, 115);
+  border-radius: 10px;
+  margin: 50px 25px 135px 25px;
+  padding: 40px 30px;
+}
+
+.buttonDaftar {
+  border: none;
+  background: none;
+  margin-right: 10px;
+  color: white;
+}
+
+.header {
+  padding-top: 50px;
+}
+
+.container-fluid-kontak {
+  background: linear-gradient(160deg, rgb(65, 161, 115), rgb(33, 100, 70));
+  height: 89vh;
+  width: 100%;
+}
+
+.container-mail {
+  background: rgba(46, 126, 87, 0.639);
+  height: 10vh;
+  width: 100%;
+}
+
+/* Tutup style section */
+
+/* Login dan Register */
+.container-masuk {
+  background: linear-gradient(160deg, rgb(65, 161, 115), rgb(33, 100, 70));
+  height: 100vh;
+  width: 100%;
+}
+
+.container-daftar {
+  background: linear-gradient(160deg, rgb(65, 161, 115), rgb(33, 100, 70));
+  height: 100vh;
+  width: 100%;
+}
+
+.bg-register {
+  background-image: url(assets/LogoUChangeIt2.png);
+  background-position-x: 0px;
+  background-position-y: 0px;
+  background-size: 300px;
+}
+
+.bg-login {
+  background-image: url(assets/LogoUChangeIt2.png);
+  background-position-x: 5px;
+  background-position-y: center;
+  background-size: 200px;
+  background-repeat: no-repeat;
+}
+
+.shadow {
+  background-color: rgba(240, 255, 240, 0.541);
+}
+
+.fz-13 {
+  font-size: 13px;
+  position: 20px;
+}
+/* Tutup Login dan Register */
+
+/* Responsive Picture */
+@media (max-width: 769px) {
+  .img-section {
+    display: none;
+  }
+}
